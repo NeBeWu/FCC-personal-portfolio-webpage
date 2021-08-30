@@ -1,2 +1,1 @@
-# FCC-personal-portfolio-webpage
-freeCodeCamp's responsive web design fifth project 
+This repository is the product of my work on [FreeCodeCamp's Responsive Web Design fifth project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage).
