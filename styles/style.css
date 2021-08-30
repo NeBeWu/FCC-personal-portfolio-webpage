@@ -1,0 +1,86 @@
+/* Mobile-portrait */
+
+/********** Root **********/
+:root {
+  --color-1: #fae5e1;
+  --color-2: rgb(242, 191, 181);
+  --color-3: #ea9c8a;
+  --color-4: #db5234;
+  --color-5: #8f2f19;
+  --color-6: #2e150f;
+}
+
+/********** Body **********/
+body {
+  font-family: "Computer Modern Serif", serif;
+}
+
+/********** Header **********/
+
+/********** Navigation Bar **********/
+
+/********** Main **********/
+
+/********** Footer **********/
+
+/************************************************** Medias **************************************************/
+
+/* Mobile-landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /********** Root **********/
+
+  /********** Body **********/
+
+  /********** Header **********/
+
+  /********** Navigation Bar **********/
+
+  /********** Main **********/
+
+  /********** Footer **********/
+}
+
+/* Tablet-portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /********** Root **********/
+
+  /********** Body **********/
+
+  /********** Header **********/
+
+  /********** Navigation Bar **********/
+
+  /********** Main **********/
+
+  /********** Footer **********/
+}
+
+/* Tablet-landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /********** Root **********/
+
+  /********** Body **********/
+
+  /********** Header **********/
+
+  /********** Navigation Bar **********/
+
+  /********** Main **********/
+
+  /********** Footer **********/
+}
+
+/* Laptops and desktops */
+@media only screen and (min-width: 1200px) {
+  /********** Root **********/
+
+  /********** Body **********/
+
+  /********** Header **********/
+
+  /********** Navigation Bar **********/
+
+  /********** Main **********/
+
+  /********** Footer **********/
+}
