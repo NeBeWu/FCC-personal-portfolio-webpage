@@ -10,6 +10,9 @@
   --color-6: #2e150f;
 }
 
+/*The navbar should always be at the top of the viewport.*/
+/*The height of the welcome section should be equal to the height of the viewport.*/
+
 /********** Body **********/
 body {
   font-family: "Computer Modern Serif", serif;

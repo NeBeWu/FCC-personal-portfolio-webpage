@@ -14,9 +14,110 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <nav></nav>
-    <main></main>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="welcome-section">
+        <h1>Hello, I am NeBeWu</h1>
+        <p>Web Developer</p>
+      </section>
+      <section id="projects">
+        <h2>Previous Projects</h2>
+        <div class="projects-grid">
+          <a
+            href="https://codepen.io/NeBeWu/pen/JjJjMRV"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-image"
+              src="images/technical-documentation-page.png"
+              alt="project"
+            />
+            <p class="project-title">Technical Documentation Page</p>
+          </a>
+          <a
+            href="https://codepen.io/NeBeWu/pen/dyNErKV"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-image"
+              src="/images/product-landing-page.png"
+              alt="project"
+            />
+            <p class="project-title">Product Landing Page</p>
+          </a>
+          <a
+            href="https://codepen.io/NeBeWu/pen/NWdwBWN"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-image"
+              src="/images/survey-form.png"
+              alt="project"
+            />
+            <p class="project-title">Survey Form</p>
+          </a>
+          <a
+            href="https://codepen.io/NeBeWu/pen/PoWOKjE"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-image"
+              src="/images/tribute-page.png"
+              alt="project"
+            />
+            <p class="project-title">Tribute Page</p>
+          </a>
+        </div>
+      </section>
+      <section id="about"></section>
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <section id="contact"></section>
+      <div class="contact-header">
+        <h2>Feel free to contact me anytime.</h2>
+      </div>
+      <div class="contact-links">
+        <a href="https://github.com/NeBeWu" target="_blank" class="contact-link"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://codepen.io/NeBeWu"
+          target="_blank"
+          class="contact-link"
+          id="profile-link"
+          ><i class="fab fa-codepen"></i> CodePen</a
+        >
+        <a href="mailto:nebewu@gmail.com" class="contact-link"
+          ><i class="far fa-envelope"></i> Email</a
+        >
+      </div>
+    </main>
   </body>
 </html>
