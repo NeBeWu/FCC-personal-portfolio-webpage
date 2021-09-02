@@ -242,9 +242,21 @@ footer p {
   /********** Header **********/
 
   /********** Navigation Bar **********/
-
+  #navbar {
+    justify-content: start;
+  }
   /********** Main **********/
+  #contact-links {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: row;
+    justify-content: center;
+  }
 
+  #profile-link {
+    margin: 4rem 0 0 0;
+  }
+  
   /********** Footer **********/
 }
 
