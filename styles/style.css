@@ -369,12 +369,51 @@ footer p {
   /********** Root **********/
 
   /********** Body **********/
+  body {
+    font-size: 2rem;
+  }
 
   /********** Header **********/
 
   /********** Navigation Bar **********/
-
+  #navbar {
+    justify-content: start;
+  }
   /********** Main **********/
+  #projects {
+    padding: 0 8rem;
+  }
 
+  #projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 2rem;
+  }
+
+  .project-tile {
+    height: auto;
+  }
+
+  .project-image {
+    height: 40vh;
+  }
+
+  #about {
+    padding: 12rem 8rem;
+    height: 70vh;
+    text-align: center;
+  }
+
+  #contact {
+    padding: 0 8rem;
+    height: 70vh;
+  }
+
+  #contact-links {
+    font-size: 4rem;
+  }
+
+  #profile-link {
+    margin: 4rem 0;
+  }
   /********** Footer **********/
 }
